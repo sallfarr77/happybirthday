@@ -1,14 +1,14 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
   Swal.fire({
-    title: 'Musiknya kita pasang dulu yuk',
+    title: 'aku minta izin buat setel musiknya ya',
     // text: "You won't be able to revert this!",
     icon: 'warning',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
     cancelButtonColor: '#d33',
-    confirmButtonText: 'Yes',
-    cancelButtonText: 'No',
+    confirmButtonText: 'boleh',
+    cancelButtonText: 'ngga',
   }).then((result) => {
     if (result.isConfirmed) {
       document.querySelector('.song').play();
